@@ -60,3 +60,20 @@ phpcs.xml
 jsconfig.json
 UPGRADING-CURRENT.md
 .phpunit.cache
+# === moodle custom ignores ===
+moodledata/
+config.php
+config-dist.php
+cache/
+localcache/
+sessions/
+temp/
+trashdir/
+filedir/
+
+.vscode/
+vendor/
+node_modules/
+*.zip
+*.tar.zip
+*.bak
